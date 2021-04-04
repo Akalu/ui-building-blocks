@@ -25,7 +25,6 @@ Theme <p/>
 Typography <p/>
 
 
-
 Installation
 =============
 
