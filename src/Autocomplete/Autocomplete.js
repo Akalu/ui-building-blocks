@@ -151,7 +151,7 @@ export default function Autocomplete(props) {
         value={value}
         onChange={v => setValue(v)}
         textFieldProps={{
-          label: 'Team',
+          label: 'Country',
           InputLabelProps: {
             shrink: true
           }

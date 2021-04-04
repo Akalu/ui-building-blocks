@@ -18,7 +18,7 @@ import ArrowDropDownIcon from '@material-ui/icons/ArrowDropDown';
 const someAPI = searchText =>
   new Promise(resolve => {
     setTimeout(() => {
-      const teams = [
+      const countries = [
         { label: 'Australia', value: 'AU' },
         { label: 'Austria', value: 'AT' },
         { label: 'Canada', value: 'CA' },
@@ -27,10 +27,10 @@ const someAPI = searchText =>
       ];
 
       resolve(
-        teams.filter(
-          team =>
+        countries.filter(
+          country =>
             searchText &&
-            team.label
+            country.label
               .toLowerCase()
               .includes(searchText.toLowerCase())
         )
@@ -212,7 +212,7 @@ export default function Autocomplete(props) {
         value={value}
         onChange={value => setValue(value)}
         textFieldProps={{
-          label: 'Team',
+          label: 'Country',
           InputLabelProps: {
             shrink: true
           }
