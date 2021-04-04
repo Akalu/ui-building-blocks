@@ -24,6 +24,7 @@ TextField <p/>
 Theme <p/>
 Typography <p/>
 
+The code is mostly doubling the examples from https://material-ui.com/ with small changes (BTW, their site is built on React as well)
 
 Installation
 =============
